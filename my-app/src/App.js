@@ -6,16 +6,33 @@ import StatefulGreeting from './components/StatefulGreeting';
 import EventClass from './components/EventClass';
 import EventFunctional from './components/EventFunctional';
 import EventBinding from './components/EventBinding';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import RenderingLists from './components/RenderingLists';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
+
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreeting />
+      {/* <FunctionalGreeting />
       <FunctionalGreetingWithProps greeting="Nice to meet you!" name="Mike" age="32" />
       {/* <StatefulGreeting greeting="I'm a stateful class component!" name="James" /> */}
-      <EventBinding />
+      {/* <EventBinding />
       <EventClass />
-      <EventFunctional />
+      // <EventFunctional /> */}
+      {/* <ConditionalRenderingClass /> */}
+      {/* <NestingComponents /> */}
+      {/* <ConditionalRenderingFunctional connected={true}/> */}
+      {/* <MethodsAsPropsParent /> */}
+      {/* <RenderingLists /> */}
+      {/* <LifeCyclesCDM /> */}
+      {/* <LifeCyclesCDU /> */}
+      <LifeCyclesCWU />
     </div>
   );
 }
